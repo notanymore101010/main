@@ -435,12 +435,12 @@ getgenv().cardImages = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a7/SharkSkinSwordsman.png/revision/latest?cb=20240819000828",
         Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/5/51/Shark_Skin_Swordsman_Gold.png/revision/latest?cb=20240906220322",
         Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/9/92/Shark_Skin_Swordsman_Rainbow.png/revision/latest?cb=20240906220350",
-        Universal = ""
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/3/3c/Sharkskin_universal.jpg/revision/latest?cb=20241017091741"
     },
     ["Divine Ditz"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/6/6c/DivineDitz.png/revision/latest?cb=20240824050141",
         Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/0/09/Divine_Ditz_Gold.png/revision/latest?cb=20240906234719",
-        Rainbow = "",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/c/cf/Aqua-Rainbow.png/revision/latest?cb=20241017205404",
         Universal = ""
     },
     ["Frosty Fighter"] = {
@@ -531,7 +531,7 @@ getgenv().cardImages = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/0/0d/Null.png/revision/latest?cb=20240909165148",
         Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/2/2c/Null_Gold.png/revision/latest?cb=20240909234849",
         Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/c/c7/Null-Rainbow.png/revision/latest?cb=20240923020440",
-        Universal = ""
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/4b/Null-Uni.png/revision/latest?cb=20241018030923"
     },
     ["Star Warrior"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/c/c9/StarWarrior.png/revision/latest?cb=20240908132409",
@@ -746,7 +746,7 @@ getgenv().cardImages = {
     ["King of the Seven Seas"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/2/26/Sinbad-Normal.png/revision/latest?cb=20241006045245",
         Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/9/92/Sinbad-Gold.png/revision/latest?cb=20241006045516",
-        Rainbow = "",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/3/3e/Sinbad-Rainbow.png/revision/latest?cb=20241017105916",
         Universal = ""
     },
     ["Mother of All Shinobi"] = {
@@ -787,7 +787,7 @@ getgenv().cardImages = {
     },
     ["Master Of Causality"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/3/31/MasterOfCausality-Normal.png/revision/latest?cb=20241013132552",
-        Gold = "",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f3/Void-Gold.png/revision/latest?cb=20241017011531",
         Rainbow = "",
         Universal = ""
     },
@@ -805,7 +805,7 @@ getgenv().cardImages = {
     },
     ["Book Author"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/c/c9/HeavensDoor-Normal.png/revision/latest?cb=20241013140910",
-        Gold = "",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e0/HeavensDoor-Gold.png/revision/latest?cb=20241018040601",
         Rainbow = "",
         Universal = ""
     },
@@ -866,7 +866,7 @@ getgenv().supportImages = {
     ["Little Saw"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/8/89/Little_Saw.png/revision/latest?cb=20240908010445"
     },
-    ["Greif Seed"] = {
+    ["Grief Seed"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/3/36/Greif_Seed.png/revision/latest?cb=20240908020510"
     },
     ["Casull & Jackal"] = {
