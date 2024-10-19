@@ -815,6 +815,18 @@ getgenv().cardImages = {
         Rainbow = "",
         Universal = ""
     },
+    ["Green Alien"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/1/1e/Picolo-Normal.png/revision/latest?cb=20241019221247",
+        Gold = "",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Rider of Black"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/9/9c/Astolfo-Normal.png/revision/latest?cb=20241019221744",
+        Gold = "",
+        Rainbow = "",
+        Universal = ""
+    },
 }
 
 getgenv().supportImages = {
