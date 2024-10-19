@@ -213,7 +213,7 @@ getgenv().cardImages = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a9/CrimsonDemon.png/revision/latest?cb=20240902085402",
         Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/9/93/Crimson_Demon_Gold.png/revision/latest?cb=20240906155723",
         Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/d/d5/Crimson_Demon_Rainbow.png/revision/latest?cb=20240902090042",
-        Universal = ""
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/7/71/Megumin-Universal.png/revision/latest?cb=20241018112003"
     },
     ["Enkidu"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/b/b0/Enkidu.png/revision/latest?cb=20240818235020",
@@ -387,7 +387,7 @@ getgenv().cardImages = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/8/87/Deathless.png/revision/latest?cb=20240908021533",
         Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e9/Deathless_Gold.jpg/revision/latest?cb=20240915141418",
         Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e5/Deathless_Rainbow.jpg/revision/latest?cb=20240915134105",
-        Universal = ""
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/0/04/Deathless-Universal.png/revision/latest?cb=20241018110200"
     },
     ["Chainsaw Devil"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/2/23/Denji.png/revision/latest?cb=20240908015229",
