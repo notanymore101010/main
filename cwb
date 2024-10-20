@@ -827,6 +827,18 @@ getgenv().cardImages = {
         Rainbow = "",
         Universal = ""
     },
+    ["Deer Girl"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/4c/Nokotan-Normal.PNG/revision/latest/scale-to-width-down/1000?cb=20241019231158",
+        Gold = "",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["The Emperor's Bullet"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/1/1f/TheEmperorBullet-Normal.png/revision/latest?cb=20241019230432",
+        Gold = "",
+        Rainbow = "",
+        Universal = ""
+    },
 }
 
 getgenv().supportImages = {
