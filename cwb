@@ -560,7 +560,7 @@ getgenv().cardImages = {
     ["Wandering Samurai"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/2/2d/WanderingSamurai.png/revision/latest?cb=20240909195837",
         Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/6/68/Musashi-Gold.png/revision/latest?cb=20240923172638",
-        Rainbow = "",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/f/fa/Rainbow_musashi.png/revision/latest?cb=20241020042654",
         Universal = ""
     },
     ["Sly Snake"] = {
