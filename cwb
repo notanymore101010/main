@@ -356,7 +356,7 @@ getgenv().cardImages = {
     ["Blue Lily"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/5/5a/BlueLily.png/revision/latest?cb=20240824052851",
         Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a4/Blue_Lily_Gold.png/revision/latest?cb=20240910094916",
-        Rainbow = "",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/3/34/Rem-Rainbow.png/revision/latest?cb=20241021133916",
         Universal = ""
     },
     ["Armor Maiden"] = {
@@ -410,7 +410,7 @@ getgenv().cardImages = {
     ["Wings of Vengeance"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/4c/Wings_of_Vengeance.png/revision/latest?cb=20240908015820",
         Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/d/d2/WingsOfVengeance.png/revision/latest?cb=20240913025601",
-        Rainbow = "",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/7/72/Wov-Rainbow.png/revision/latest?cb=20241021134628",
         Universal = ""
     },
     ["Bloodbound Prince"] = {
@@ -812,12 +812,12 @@ getgenv().cardImages = {
     ["Army General"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/d/d4/ArmyGeneral-Normal.png/revision/latest?cb=20241013135727",
         Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/2/2c/ArmyGeneral-Gold.png/revision/latest?cb=20241013141954",
-        Rainbow = "",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/0/0d/ArmyGeneral-Rainbow.png/revision/latest?cb=20241021144024",
         Universal = ""
     },
     ["Green Alien"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/1/1e/Picolo-Normal.png/revision/latest?cb=20241019221247",
-        Gold = "",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e9/Picolo-Gold.png/revision/latest?cb=20241022025906",
         Rainbow = "",
         Universal = ""
     },
