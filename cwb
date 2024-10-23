@@ -929,6 +929,7 @@ getgenv().supportImages = {
 }
 
 getgenv().code = {
+    "/code HOTFIX8.1!",
     "/code UPDATE4!",
     "/code 50KLIKES!",
     "/code 30MVISITS!",
