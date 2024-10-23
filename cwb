@@ -254,7 +254,7 @@ getgenv().cardImages = {
     ["Manipulator"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/b/b6/Manipulator.png/revision/latest?cb=20240901114031",
         Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/4/44/Manipulator_Gold.png/revision/latest?cb=20240907000338",
-        Rainbow = "",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/4/42/Aizen-Rainbow.png/revision/latest?cb=20241023140338",
         Universal = ""
     },
     ["Bald Hero"] = {
@@ -763,20 +763,20 @@ getgenv().cardImages = {
     },
     ["Ice Queen"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f3/Esdeath-Normal.png/revision/latest?cb=20241013121704",
-        Gold = "",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/0/0f/Esdeath-Gold.png/revision/latest?cb=20241023180228",
         Rainbow = "",
         Universal = ""
     },
     ["Old Wise Man"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/b/b4/Ohnoki-Normal.png/revision/latest?cb=20241013123142",
-        Gold = "",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/c/c7/Ohnoki-Gold.png/revision/latest?cb=20241023180722",
         Rainbow = "",
         Universal = ""
     },
     ["Dimensional Weaver"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/b/bb/Obito-Normal.png/revision/latest?cb=20241013123839",
         Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/1/13/Obito-Gold.png/revision/latest?cb=20241013143459",
-        Rainbow = "",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f6/Obito-Rainbow.png/revision/latest?cb=20241023193330",
         Universal = ""
     },
     ["Jobless Magician"] = {
@@ -823,14 +823,14 @@ getgenv().cardImages = {
     },
     ["Rider of Black"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/9/9c/Astolfo-Normal.png/revision/latest?cb=20241019221744",
-        Gold = "",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/3/39/Astolfo-Gold.png/revision/latest?cb=20241023214916",
         Rainbow = "",
         Universal = ""
     },
     ["Deer Girl"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/4c/Nokotan-Normal.PNG/revision/latest/scale-to-width-down/1000?cb=20241019231158",
-        Gold = "",
-        Rainbow = "",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/8/87/Shikanokotan-Gold.png/revision/latest?cb=20241023215111",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/7/7d/Shikanokotan-Rainbow.png/revision/latest?cb=20241023220106",
         Universal = ""
     },
     ["The Emperor's Bullet"] = {
