@@ -906,7 +906,7 @@ getgenv().supportImages = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/9/9a/Vampire_Mask.png/revision/latest?cb=20241006225901"
     },
     ["Alloyed Yo-Yo"] = {
-        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f3/Alloyed_Yo-Yo.png/revision/latest?cb=20241006225652"
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f3/Alloyed_Yo-Yo.png/revision/latest/scale-to-width-down/127?cb=20241006225652"
     },
     ["Refreshing Beans"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/7/7e/Refreshing_Beans.png/revision/latest?cb=20241006230756"
