@@ -266,7 +266,7 @@ getgenv().cardImages = {
     ["Infernal Pugilist"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/2/2c/InfernalPugilist.png/revision/latest?cb=20240824233626",
         Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a6/Infernal_Pugilist_Gold.png/revision/latest?cb=20240908154416",
-        Rainbow = "",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/d/d4/Akaza-Rainbow.png/revision/latest?cb=20241027063427",
         Universal = ""
     },
     ["Sword Saintess"] = {
@@ -314,7 +314,7 @@ getgenv().cardImages = {
     ["The Lone Reader"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/0/06/TheLoneReader.png/revision/latest?cb=20240819000619",
         Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a4/The_Lone_Reader_Gold.png/revision/latest?cb=20240906232024",
-        Rainbow = "",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/3/3d/LoneReader-Rainbow.png/revision/latest?cb=20241026115632",
         Universal = ""
     },
     ["Tenacious Hunter"] = {
@@ -687,7 +687,7 @@ getgenv().cardImages = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/7/72/ScarletSamurai-Normal.png/revision/latest?cb=20241006004947",
         Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e4/Kenshin-Gold.png/revision/latest?cb=20241007045036",
         Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/0/0f/Kenshin-Rainbow.png/revision/latest?cb=20241006175008",
-        Universal = ""
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e9/Kenshin-Universal.png/revision/latest?cb=20241026025755"
     },
     ["Spirit Detective"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f7/Yusuke-Normal.png/revision/latest?cb=20241006010302",
@@ -781,7 +781,7 @@ getgenv().cardImages = {
     },
     ["Jobless Magician"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/8/86/Rudeus-Normal.png/revision/latest?cb=20241013124453",
-        Gold = "",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/6/6c/Gold_Jobless_Magician.png/revision/latest?cb=20241025025920",
         Rainbow = "",
         Universal = ""
     },
@@ -835,10 +835,65 @@ getgenv().cardImages = {
     },
     ["The Emperor’s Bullet"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/1/1f/TheEmperorBullet-Normal.png/revision/latest?cb=20241019230432",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/2/25/Gold_The_Emperors_Bullet.png/revision/latest?cb=20241025024134",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/7/7b/Rainbow_The_Emperors_Bullet.png/revision/latest?cb=20241025023507",
+        Universal = ""
+    },
+    ["Soul Witch"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/b/bb/SoulWitch-Normal.png/revision/latest?cb=20241028144651",
         Gold = "",
         Rainbow = "",
         Universal = ""
     },
+    ["The Reaper"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/3/36/TheReaper-Normal.png/revision/latest?cb=20241028144235",
+        Gold = "",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Honorable Seven"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f5/HonorableSeven-Normal.png/revision/latest?cb=20241028142850",
+        Gold = "",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Flame Jester"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a1/FlameJester-Normal.png/revision/latest?cb=20241028142218",
+        Gold = "",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Wild Panther"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/7/76/Grimjow-Normal.png/revision/latest?cb=20241028141125",
+        Gold = "",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Soul King"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e5/Brook-Normal.png/revision/latest?cb=20241028140354",
+        Gold = "",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["God of Death"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a9/Ryuk-Normal.png/revision/latest?cb=20241028130416",
+        Gold = "",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Endless Night"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/d/de/Kurumi-Normal.png/revision/latest?cb=20241028122801",
+        Gold = "",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Brutal Punishment"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/c/cf/Jason-Normal.png/revision/latest?cb=20241028120921",
+        Gold = "",
+        Rainbow = "",
+        Universal = ""
+    },
+    
 }
 
 getgenv().supportImages = {
@@ -926,6 +981,15 @@ getgenv().supportImages = {
     ["Philosopher Stone"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/c/ca/PhilosopherStone.png/revision/latest?cb=20241007185630"
     },
+    ["Resonance Blade"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/1/1a/SoulEater-Normal.png/revision/latest?cb=20241028123646"
+    },
+    ["Ghost"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/7/71/Ghost-Normal.png/revision/latest?cb=20241028124638"
+    },
+    ["Big Scissor"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/3/3a/BigScissor-Normal.png/revision/latest?cb=20241028124652"
+    },
 }
 
 getgenv().code = {
@@ -969,4 +1033,7 @@ getgenv().code = {
     "/code UPDATE6!",
     "/code WELCOMENEWDEVS!",
     "/code UPDATE8!",
+    "/code HALLOWEENISHERE!",
+    "/code UPDATE9!",
+    "/code 70MVISITS!",
 }
