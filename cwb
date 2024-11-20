@@ -603,7 +603,7 @@ getgenv().cardImages = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/6/6c/Cifer.png/revision/latest?cb=20240807055636",
         Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/7/7c/Cifer_Gold.png/revision/latest?cb=20240907130343",
         Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a4/Cifer_Rainbow.png/revision/latest?cb=20240907002602",
-        Universal = ""
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/a/ae/Cifer-Universal.png/revision/latest?cb=20241120110057"
     },
     ["Wicked Weaver"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/3/36/Wicked_Weaver.png/revision/latest?cb=20240901132929",
@@ -649,7 +649,7 @@ getgenv().cardImages = {
     },
     ["Starlight Devourer"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/b/b7/Starlight_Devourer.png/revision/latest?cb=20240908034844",
-        Gold = "",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f0/Starlight_Devourer_Gold.png/revision/latest?cb=20240917110323",
         Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/1/1a/Garou-Rainbow.png/revision/latest?cb=20241104151731",
         Universal = ""
     },
@@ -944,7 +944,7 @@ getgenv().cardImages = {
     ["Demon Sister"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/4d/Nezuko-Normal.png/revision/latest?cb=20241119002335",
         Gold = "",
-        Rainbow = "",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/4/43/Demon_Sister_Rainbow.png/revision/latest?cb=20241120044456",
         Universal = ""
     },
     ["Electric Princess"] = {
@@ -991,7 +991,7 @@ getgenv().cardImages = {
     },
     ["Nameless Monster"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/9/95/Johan-Normal.png/revision/latest?cb=20241119032721",
-        Gold = "",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/1/18/NamelesMonsterGold.png/revision/latest?cb=20241120014009",
         Rainbow = "",
         Universal = ""
     },
@@ -1009,7 +1009,7 @@ getgenv().cardImages = {
     },
     ["Magician Clown"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/1/11/Hisoka-Normal.png/revision/latest?cb=20241119035729",
-        Gold = "",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/5/57/Hisoka-Gold.png/revision/latest?cb=20241120043243",
         Rainbow = "",
         Universal = ""
     },
@@ -1157,5 +1157,9 @@ getgenv().code = {
     "/code HALLOWEENISHERE!",
     "/code UPDATE9!",
     "/code 70MVISITS!",
-    
+    "/code 80MVISITS!",
+    "/code UPDATE10!",
+    "/code SORRYABOUTDELAY!",
+    "/code GUILDUPDATE!",
+    "/code OOPSYDAISY!",
 }
