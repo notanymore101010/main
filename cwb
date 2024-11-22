@@ -521,7 +521,7 @@ getgenv().cardImages = {
         Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/6/61/Griffith-Rainbow.png/revision/latest?cb=20241003233627",
         Universal = ""
     },
-    ["Black Swordman"] = {
+    ["Black Swordsman"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a5/Gutsbuff.png/revision/latest?cb=20240908093041",
         Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/2/29/Gold_black_swordman.jpg/revision/latest?cb=20240919133551",
         Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/d/de/Guts-Rainbow.png/revision/latest?cb=20241009063147",
@@ -929,7 +929,7 @@ getgenv().cardImages = {
         Rainbow = "",
         Universal = ""
     },
-    ["War Goddes"] = {
+    ["War Godess"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/4b/Mikasa-Normal.png/revision/latest?cb=20241119001405",
         Gold = "",
         Rainbow = "",
