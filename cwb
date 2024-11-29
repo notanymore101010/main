@@ -1013,7 +1013,6 @@ getgenv().cardImages = {
         Rainbow = "",
         Universal = ""
     },
-    
 }
 
 getgenv().supportImages = {
@@ -1110,7 +1109,6 @@ getgenv().supportImages = {
     ["Big Scissor"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/3/3a/BigScissor-Normal.png/revision/latest?cb=20241028124652"
     },
-    
 }
 
 getgenv().code = {
