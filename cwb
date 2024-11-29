@@ -1012,7 +1012,7 @@ getgenv().cardImages = {
         Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/5/57/Hisoka-Gold.png/revision/latest?cb=20241120043243",
         Rainbow = "",
         Universal = ""
-    },
+    }
 }
 
 getgenv().supportImages = {
@@ -1108,7 +1108,7 @@ getgenv().supportImages = {
     },
     ["Big Scissor"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/3/3a/BigScissor-Normal.png/revision/latest?cb=20241028124652"
-    },
+    }
 }
 
 getgenv().code = {
@@ -1160,5 +1160,5 @@ getgenv().code = {
     "/code SORRYABOUTDELAY!",
     "/code GUILDUPDATE!",
     "/code OOPSYDAISY!",
-    "/code EVOCHANGES!",
+    "/code EVOCHANGES!"
 }
