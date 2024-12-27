@@ -1165,4 +1165,5 @@ getgenv().code = {
     "/code TIMEFORPRESENTS!",
     "/code CHRISTMASISHERE!",
     "/code 90MVISITS!",
+    "/code CHRISTMASDAY!",
 }
