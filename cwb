@@ -1169,4 +1169,5 @@ getgenv().code = {
     "/code 100MVISITS!",
     "/code SENSEIPACK!",
     "/code SENSEIPACKMILESTONE!",
+    "/code",
 }
