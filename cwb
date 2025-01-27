@@ -1111,64 +1111,1192 @@ getgenv().supportImages = {
     }
 }
 
+getgenv().cardImages = {
+    ["Bandit"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/2/24/Bandit_norm.png/revision/latest?cb=20240818184819",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/c/ce/Bandit_Gold.png/revision/latest?cb=20240906140440",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/4/4d/Bandit_Rainbow.png/revision/latest?cb=20240909203851",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/43/Bandit_Universal.png/revision/latest?cb=20240909191621"
+    },
+    ["Pirate"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/b/bf/Pirate_Norm.png/revision/latest?cb=20240818185032",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/5/57/Pirate_Gold.png/revision/latest?cb=20240902084300",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/6/6a/Pirate_Rainbow.png/revision/latest?cb=20240902084445",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/1/16/Pirate_Universal.png/revision/latest?cb=20240906151603"
+    },
+    ["Green Fiend"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/8/8e/Green_Fiend_Norm.png/revision/latest?cb=20240818185403",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/0/08/Green_Fiend_Gold.png/revision/latest?cb=20240902084803",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/3/34/Green_Fiend_Rainbow.png/revision/latest?cb=20240902085020",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/9/90/Green_Fiend_Universal.png/revision/latest?cb=20240902085732"
+    },
+    ["Slime"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/7/75/Slime_Norm.png/revision/latest?cb=20240806000545",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/4/4a/Slime_Gold.png/revision/latest?cb=20240808010528",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/7/7d/Slime_Rainbow.png/revision/latest?cb=20240808010715",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/9/90/Slime_Universal.png/revision/latest?cb=20240906160449"
+    },
+    ["Shade"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/9/99/Shade.jpg/revision/latest?cb=20240818233215",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/6/62/Shade_Gold.png/revision/latest?cb=20240905125524",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/a/ac/Shade_Rainbow.png/revision/latest?cb=20240905125534",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/4c/Shade_Universal.png/revision/latest?cb=20240905125543"
+    },
+    ["Prince"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/1/1c/Prince_Norm.png/revision/latest?cb=20240806002253",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/0/06/Prince_Gold.png/revision/latest?cb=20240808011547",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/d/de/Prince_Rainbow.png/revision/latest?cb=20240808011557",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/6/61/Prince_Universal.png/revision/latest?cb=20240809144422"
+    },
+    ["Pirate Hunter"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/b/b6/PirateHunter.jpg/revision/latest?cb=20240818233310",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/7/7e/Pirate_Hunter_Gold.png/revision/latest?cb=20240905125938",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/6/66/Pirate_Hunter_Rainbow.png/revision/latest?cb=20240905125946",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/4e/Pirate_Hunter_Universal.png/revision/latest?cb=20240905130208"
+    },
+    ["Wild Child"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/6/65/WildChild.jpg/revision/latest?cb=20240818233351",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/f/fb/Wild_Child_Gold.png/revision/latest?cb=20240905130427",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/4/4f/Wild_Child_Rainbow.png/revision/latest?cb=20240905130436",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/e/ed/Wild_Child_Universal.png/revision/latest?cb=20240906155524"
+    },
+    ["Substitute Reaper"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/6/6b/SubstituteReaper.png/revision/latest?cb=20240818233437",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/2/27/Substitute_Reaper_Gold.png/revision/latest?cb=20240905131246",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/3/34/Substitute_Reaper_Rainbow.png/revision/latest?cb=20240905131252",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/7/7d/Substitute_Reaper_Universal.png/revision/latest?cb=20240906122046"
+    },
+    ["Knucklehead Ninja"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/9/9c/KnuckleheadNinja.png/revision/latest?cb=20240906141318",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/4/4b/Knucklehead_Ninja_Gold.png/revision/latest?cb=20240906143852",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/0/00/Knucklehead_Ninja_Rainbow.png/revision/latest?cb=20240906143956",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/47/Knucklehead_Ninja_Universal.png/revision/latest?cb=20240906153057"
+    },
+    ["Rubber Boy"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/5/5f/RubberBoy.png/revision/latest?cb=20240818233622",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/9/9d/Rubber_Boy_Gold.png/revision/latest?cb=20240906145203",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/c/c8/Rubber_Boy_Rainbow.png/revision/latest?cb=20240906145318",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/4c/Rubber_Boy_Universal.png/revision/latest?cb=20240906234432"
+    },
+    ["Nail Master"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/6/64/NailMaster.png/revision/latest?cb=20240818233709",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/7/7a/Nail_Master_Gold.png/revision/latest?cb=20240906145609",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/4/47/Nail_Master_Rainbow.png/revision/latest?cb=20240906145726",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/c/cc/Nail_Master_Universal.png/revision/latest?cb=20240906212643"
+    },
+    ["Earth's Mightiest"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/2/2e/Earths_Mightiest_Norm.png/revision/latest?cb=20240901111348",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/2/29/Earths_Mightiest_Gold.png/revision/latest?cb=20240808041246",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/c/ca/Earths_Mightiest_Rainbow.png/revision/latest?cb=20240808041257",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/6/6c/Earth%27s_Mightiest_Universal.png/revision/latest?cb=20240808051245"
+    },
+    ["Water Swordsman"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/0/0e/WaterSwordsman.png/revision/latest?cb=20240901104840",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/0/00/Water_Swordsman_Gold.png/revision/latest?cb=20240906150438",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/9/9c/Water_Swordsman_Rainbow.png/revision/latest?cb=20240906154937",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/d/d8/Water_Swordsman_Universal.png/revision/latest?cb=20240906172931"
+    },
+    ["Salamander"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/5/53/Salamander.png/revision/latest?cb=20240818233822",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/a/ad/Salamander_Gold.png/revision/latest?cb=20240906155208",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/9/98/Salamander_Rainbow.png/revision/latest?cb=20240906155344",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/b/bb/Salamander_Universal.png/revision/latest?cb=20240907000905"
+    },
+    ["Kil"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/7/7a/Kil.png/revision/latest?cb=20240901103709",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/5/5e/Kil_Gold.png/revision/latest?cb=20240906161121",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/7/75/Kil_Rainbow.png/revision/latest?cb=20240906161324",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/a/ae/Kil_Universal.png/revision/latest?cb=20240906222744"
+    },
+    ["Rumbling"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/0/07/Rumbling_Norm.png/revision/latest?cb=20240901125149",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/5/50/Rumbling_Gold.png/revision/latest?cb=20240808042543",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f6/Rumbling_Rainbow.png/revision/latest?cb=20240808060226",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/1/1d/Rumbling_Universal.png/revision/latest?cb=20240811060148"
+    },
+    ["Cursed Vessel"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/b/b7/CursedVessel.png/revision/latest?cb=20240901112001",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/1/12/Cursed_Vessel_Gold.png/revision/latest?cb=20240906161844",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/5/54/Cursed_Vessel_Rainbow.png/revision/latest?cb=20240906162002",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a8/Cursed_Vessel_Universal.png/revision/latest?cb=20240906165823"
+    },
+    ["Black Leg Chef"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/5/5c/BlackLegChef.png/revision/latest?cb=20240818234206",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/7/7f/Black_Leg_Chef_Gold.png/revision/latest?cb=20240906162510",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/0/0d/Black_Leg_Chef_Rainbow.png/revision/latest?cb=20240906162744",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/e/ef/Black_Leg_Chef_Universal.png/revision/latest?cb=20240907093304"
+    },
+    ["Dog Owner"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/4e/DogOwner.png/revision/latest?cb=20240901112830",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/9/99/Dog_Owner_Gold.png/revision/latest?cb=20240906163236",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/9/93/Dog_Owner_Rainbow.png/revision/latest?cb=20240906164401",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/8/8a/Dog_Owner_Universal.png/revision/latest?cb=20240908114043"
+    },
+    ["Cat Burglar"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/7/79/CatBurglar.png/revision/latest?cb=20240901113122",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/b/ba/Cat_Burglar_Gold.png/revision/latest?cb=20240906163807",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/3/31/Cat_Burglar_Rainbow.png/revision/latest?cb=20240906164723",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a9/Nami-Universal.png/revision/latest?cb=20240910123348"
+    },
+    ["Mana Exile"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/40/ManaExile.png/revision/latest?cb=20240818234401",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f8/Mana_Exile_Gold.png/revision/latest?cb=20240906173729",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/f/fe/Mana_Exile_Rainbow.png/revision/latest?cb=20240906174052",
+        Universal = ""
+    },
+    ["Slime King"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/8/89/SlimeKing.png/revision/latest?cb=20240818234441",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/0/0e/Slime_King_Gold.png/revision/latest?cb=20240906174752",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/0/0a/Slime_King_Rainbow.png/revision/latest?cb=20240906212523",
+        Universal = ""
+    },
+    ["Fire Fighter"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/3/34/FireFigther.png/revision/latest?cb=20240818234508",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/c/c3/Fire_Fighter_Gold.png/revision/latest?cb=20240906180657",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/a/aa/Fire_Fighter_Rainbow.png/revision/latest?cb=20240907101748",
+        Universal = ""
+    },
+    ["Masked Leader"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/b/bf/MaskedLeader.png/revision/latest?cb=20240818234529",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/9/9a/Masked_Leader_Gold.png/revision/latest?cb=20240906181545",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/f/ff/Masked_Leader_Rainbow.png/revision/latest?cb=20240906212342",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/b/b3/Lelouch-Universal.png/revision/latest?cb=20241005170221"
+    },
+    ["Bizarre Villain"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/0/01/BizarreVillain.png/revision/latest?cb=20240901113441",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/b/b9/Bizarre_Villain_Gold.png/revision/latest?cb=20240906182719",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/0/00/Bizarre_Villain_Rainbow.png/revision/latest?cb=20240906182929",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/1/13/Dio-Universal.png/revision/latest?cb=20241006052456"
+    },
+    ["King of Games"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/5/52/KingOfGames.png/revision/latest?cb=20240819013113",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/e/ed/King_of_Games_Gold.png/revision/latest?cb=20240906183241",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/6/6a/King_of_Games_Rainbow.png/revision/latest?cb=20240908163429",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f6/King_Of_Games_Universal.png/revision/latest?cb=20240906221645"
+    },
+    ["Fairy Queen"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/0/09/FairyQueen.png/revision/latest?cb=20240818234632",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a3/Fairy_Queen_Gold.png/revision/latest?cb=20240906184509",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/0/07/Fairy_Queen_Rainbow.png/revision/latest?cb=20240808074822",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/4a/Screenshot_2024-11-10_19.17.06.png/revision/latest?cb=20241110192024"
+    },
+    ["Dual Swordsman"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/a/ae/DualSwordsman.png/revision/latest?cb=20240818234700",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/9/9f/Dual_Swordsman_Gold.png/revision/latest?cb=20240906185052",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/8/8a/Dual_Swordsman_Rainbow.png/revision/latest?cb=20240811065836",
+        Universal = ""
+    },
+    ["Bizarre Hero"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/43/BizarreHero.png/revision/latest?cb=20240901113715",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/b/bf/Bizarre_Hero_Gold.png/revision/latest?cb=20240906213935",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/0/05/Bizarre_Hero_Rainbow.png/revision/latest?cb=20240907103527",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/2/21/Jotaro-Uni.png/revision/latest?cb=20240910202349"
+    },
+    ["Older Brother"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/8/8e/Older_Brother_Norm.png/revision/latest?cb=20240806122542",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/5/58/Older_Brother_Gold.png/revision/latest?cb=20240808073545",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/7/75/Older_Brother_Rainbow.png/revision/latest?cb=20240810142416",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a3/Choso-Uni.png/revision/latest?cb=20240910062809"
+    },
+    ["Shadow Sorcerer"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/9/9e/Newmegumi.png/revision/latest?cb=20240908092002",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/d/d2/Shadow_Sorcerer_Gold.png/revision/latest?cb=20240908125249",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/9/98/Shadow_Sorcerer_Rainbow.png/revision/latest?cb=20240908125345",
+        Universal = ""
+    },
+    ["Sleeping Thunder"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/5/50/SleepingThunder.png/revision/latest?cb=20240818234842",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/6/66/Sleeping_Thunder_Gold.png/revision/latest?cb=20240906214621",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/c/c8/Sleeping_Thunder_Rainbow.png/revision/latest?cb=20240906214330",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/9/99/Zenitsu-Universal.png/revision/latest?cb=20240910055601"
+    },
+    ["Limitless"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a4/Limitless.png/revision/latest?cb=20240818234910",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e9/Limitless_Gold.png/revision/latest?cb=20240906215013",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/7/74/Gojo-Rainbow.png/revision/latest?cb=20240910062641",
+        Universal = ""
+    },
+    ["The One"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/9/94/The_One_Norm.png/revision/latest?cb=20240806022845",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/4/40/The_One_Gold.png/revision/latest?cb=20240808071547",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/a/ad/The_One_Rainbow.png/revision/latest?cb=20240811121744",
+        Universal = ""
+    },
+    ["Crimson Demon"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a9/CrimsonDemon.png/revision/latest?cb=20240902085402",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/9/93/Crimson_Demon_Gold.png/revision/latest?cb=20240906155723",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/d/d5/Crimson_Demon_Rainbow.png/revision/latest?cb=20240902090042",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/7/71/Megumin-Universal.png/revision/latest?cb=20241018112003"
+    },
+    ["Enkidu"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/b/b0/Enkidu.png/revision/latest?cb=20240818235020",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/d/df/Enkidu_Gold.png/revision/latest?cb=20240906215326",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/a/ae/Enkidu_Rainbow.png/revision/latest?cb=20240910050020",
+        Universal = ""
+    },
+    ["Saber"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/4e/SaberV2.png/revision/latest?cb=20240908131310",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/d/d6/Saber_Gold.png/revision/latest?cb=20240908154249",
+        Rainbow = "",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/0/09/Unisaber.png/revision/latest?cb=20240907084455"
+    },
+    ["Gilgamesh"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/0/0c/GilgameshV2.png/revision/latest?cb=20240901124921",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/c/c4/Gilgamesh_Gold.png/revision/latest?cb=20240906221309",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/8/80/Gilgamesh_Rainbow.png/revision/latest?cb=20240909163925",
+        Universal = ""
+    },
+    ["Aladdin"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/5/59/AladdinV2.png/revision/latest?cb=20240818235122",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/3/37/Aladdin_Gold.png/revision/latest?cb=20240906224129",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/0/02/Aladdin-Rainbow.png/revision/latest?cb=20240909224202",
+        Universal = ""
+    },
+    ["Mob"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/e/ec/MobV2.png/revision/latest?cb=20240819011330",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/b/b0/Mob_Gold.png/revision/latest?cb=20240909140931",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/5/53/Mob_Rainbow.png/revision/latest?cb=20240909140600",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/6/60/Mob_Universal.png/revision/latest?cb=20240910100028"
+    },
+    ["Kira"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/42/KiraV2.png/revision/latest?cb=20240819024326",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f2/Kira_Gold.png/revision/latest?cb=20240908201652",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/1/17/Kira-Rainbow.png/revision/latest?cb=20240910060637",
+        Universal = ""
+    },
+    ["Manipulator"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/b/b6/Manipulator.png/revision/latest?cb=20240901114031",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/4/44/Manipulator_Gold.png/revision/latest?cb=20240907000338",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/4/42/Aizen-Rainbow.png/revision/latest?cb=20241023140338",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/d/d3/Manipulator_universal.png/revision/latest?cb=20241119054645"
+    },
+    ["Bald Hero"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/b/b4/Bald_Hero.png/revision/latest?cb=20240901111043",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/6/6e/Bald_Hero_Gold.png/revision/latest?cb=20240812065843",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Infernal Pugilist"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/2/2c/InfernalPugilist.png/revision/latest?cb=20240824233626",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a6/Infernal_Pugilist_Gold.png/revision/latest?cb=20240908154416",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/d/d4/Akaza-Rainbow.png/revision/latest?cb=20241027063427",
+        Universal = ""
+    },
+    ["Sword Saintess"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/42/SwordSaintess.png/revision/latest?cb=20240819000340",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/8/80/Sword_Saintess_Gold.png/revision/latest?cb=20240827180430",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/d/d2/Sword_Saintess_Rainbow.png/revision/latest?cb=20240906223156",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/9/96/Sword_Saintess_Universal.png/revision/latest?cb=20240812140705"
+    },
+    ["The Irregular"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/0/02/TheIrregular.png/revision/latest?cb=20240901114424",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/3/36/The_Irregular_Gold.png/revision/latest?cb=20240906223345",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/1/1b/The_Irregular_Rainbow.png/revision/latest?cb=20240907003125",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/e/ed/The_Irregular_Universal.png/revision/latest?cb=20240815084302"
+    },
+    ["Silver Enigma"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/1/11/SilverEnigma.png/revision/latest?cb=20240901114658",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/2/22/Silver_Enigma_Gold.png/revision/latest?cb=20240906223811",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/1/10/Silver_Enigma_Rainbow.png/revision/latest?cb=20240810133354",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/4d/SilverEnigma-Universal.png/revision/latest?cb=20241104180943"
+    },
+    ["Hardcore Gamer"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/9/91/Hardcore_Gamer_Norm.png/revision/latest?cb=20240908031203",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/f/fe/Hardcore_Gamer_Gold.png/revision/latest?cb=20240908031557",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/7/72/Hardcore_Gamer_Rainbow.png/revision/latest?cb=20240812073416",
+        Universal = ""
+    },
+    ["Crimson Knight"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/9/98/Crimson_Knight_Norm.png/revision/latest?cb=20240908155647",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/b/b9/Crimson_Knight_Gold.png/revision/latest?cb=20240908163639",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/9/93/Crimson_Knight_Rainbow.png/revision/latest?cb=20240810182401",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/0/06/Crimson_Knight_Universal.png/revision/latest?cb=20240910095233"
+    },
+    ["Scarlet Noble"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/7/71/ScarletNoble.png/revision/latest?cb=20240819000538",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a9/Scarlet_Noble_Gold.png/revision/latest?cb=20240910095620",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Monkey King"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/41/Monkey_King_Norm.png/revision/latest?cb=20240901122933",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a7/Monkey_King_Gold.png/revision/latest?cb=20240810053954",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/3/34/Monkey_King_Rainbow.png/revision/latest?cb=20240815181229",
+        Universal = ""
+    },
+    ["The Lone Reader"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/0/06/TheLoneReader.png/revision/latest?cb=20240819000619",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a4/The_Lone_Reader_Gold.png/revision/latest?cb=20240906232024",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/3/3d/LoneReader-Rainbow.png/revision/latest?cb=20241026115632",
+        Universal = ""
+    },
+    ["Tenacious Hunter"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/c/cb/TenaciousHunter.png/revision/latest?cb=20240820021028",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/3/3a/Tenacious_Hunter_Gold.png/revision/latest?cb=20240908192908",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/1/13/Tenacious_Hunter_Rainbow.png/revision/latest?cb=20240831051810",
+        Universal = ""
+    },
+    ["Luckless Hero"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/2/24/LucklessHero.png/revision/latest?cb=20240824052000",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/0/0c/Luckless_Hero_Gold.png/revision/latest?cb=20240906224428",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/6/63/Luckless_Hero_Rainbow.png/revision/latest?cb=20240906224806",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/6/6a/Luckless_Hero_Universal.png/revision/latest?cb=20240908153923"
+    },
+    ["The Unbreakable"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/2/2f/TheUnbreakable.png/revision/latest?cb=20240824052110",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/a/af/The_Unbleakable_Gold.png/revision/latest?cb=20240906225331",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/6/67/The_Unbreakable_Rainbow.png/revision/latest?cb=20240907013234",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/49/Uninao.png/revision/latest?cb=20240908202349"
+    },
+    ["Crimson Rose"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/7/78/CrimsonRose.png/revision/latest?cb=20240824052238",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/d/d0/Crimson_Rose_Gold.png/revision/latest?cb=20240910094529",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/3/30/Crimson_Rose_Rainbow.png/revision/latest?cb=20240910112532",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/0/0e/CrimsomRose-Universal.png/revision/latest?cb=20240910113854"
+    },
+    ["Wind Sovereign"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/8/82/WindSovereign.png/revision/latest?cb=20240824052540",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f1/Wind_Sovereign_Gold.png/revision/latest?cb=20240907054920",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/c/cb/Wind_Sovereign_Rainbow.png/revision/latest?cb=20240907055152",
+        Universal = ""
+    },
+    ["Timeless Sage"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/0/0a/TimelessSage.png/revision/latest?cb=20240824052717",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/b/b9/Timeless_Sage_Gold.png/revision/latest?cb=20240910052618",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/9/97/TimelessSage-Rainbow.png/revision/latest?cb=20240909215534",
+        Universal = ""
+    },
+    ["Blue Lily"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/5/5a/BlueLily.png/revision/latest?cb=20240824052851",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a4/Blue_Lily_Gold.png/revision/latest?cb=20240910094916",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/3/34/Rem-Rainbow.png/revision/latest?cb=20241021133916",
+        Universal = ""
+    },
+    ["Armor Maiden"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f2/ArmorMaiden.png/revision/latest?cb=20240824225850",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/2/2c/Armor_Maiden_Gold.png/revision/latest?cb=20240906225707",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a8/Erza-Rainbow.png/revision/latest?cb=20241102185654",
+        Universal = ""
+    },
+    ["Shadow Dweller"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/5/52/ShadowDweller.png/revision/latest?cb=20240824084440",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/c/c4/Atomic-Gold.png/revision/latest?cb=20240910052941",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["The Hollow"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/9/94/The_Hollow.png/revision/latest?cb=20240908011522",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/e/ed/The_Hollow_Gold.png/revision/latest?cb=20240910103657",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/9/9c/RainbowGabimaru.png/revision/latest?cb=20241112032559",
+        Universal = ""
+    },
+    ["Magical Girl"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/1/12/Madoka.png/revision/latest?cb=20240908015940",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/7/70/Magical_Girl_Gold.png/revision/latest?cb=20240909235141",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Deathless"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/8/87/Deathless.png/revision/latest?cb=20240908021533",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e9/Deathless_Gold.jpg/revision/latest?cb=20240915141418",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e5/Deathless_Rainbow.jpg/revision/latest?cb=20240915134105",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/0/04/Deathless-Universal.png/revision/latest?cb=20241018110200"
+    },
+    ["Chainsaw Devil"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/2/23/Denji.png/revision/latest?cb=20240908015229",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/d/d7/Chainsaw_Devil_Gold.png/revision/latest?cb=20240908014701",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Silver Phantom"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/0/08/Silver_Phantom.png/revision/latest?cb=20240908014110",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/5/54/SilverPhantom-Gold.png/revision/latest?cb=20240915131034",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a4/SilverPhanton-Rainbow.png/revision/latest?cb=20240923022455",
+        Universal = ""
+    },
+    ["Parasite"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f0/Parasite.png/revision/latest?cb=20240908013557",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/1/11/Parasite_Gold.png/revision/latest?cb=20240909235636",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Wings of Vengeance"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/4c/Wings_of_Vengeance.png/revision/latest?cb=20240908015820",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/d/d2/WingsOfVengeance.png/revision/latest?cb=20240913025601",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/7/72/Wov-Rainbow.png/revision/latest?cb=20241021134628",
+        Universal = ""
+    },
+    ["Bloodbound Prince"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/7/70/Bloodbound_Prince.png/revision/latest?cb=20240908014019",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/3/3b/Alucard-Gold.png/revision/latest?cb=20241009184818",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Water Bender"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/8/83/WaterBender.png/revision/latest?cb=20240901105415",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f0/Water_Bender_Gold.png/revision/latest?cb=20240906132958",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/7/72/Water_Bender_Rainbow.png/revision/latest?cb=20240906133503",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/9/9e/Water_Bender_Universal.png/revision/latest?cb=20240906133151"
+    },
+    ["Water Hashira"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/47/WaterHashira.png/revision/latest?cb=20240819000647",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/0/0b/Water_Hashira_Gold.png/revision/latest?cb=20240907003438",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/d/d7/Water_Hashira_Rainbow.png/revision/latest?cb=20240909234712",
+        Universal = ""
+    },
+    ["Shark Skin Swordsman"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a7/SharkSkinSwordsman.png/revision/latest?cb=20240819000828",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/5/51/Shark_Skin_Swordsman_Gold.png/revision/latest?cb=20240906220322",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/9/92/Shark_Skin_Swordsman_Rainbow.png/revision/latest?cb=20240906220350",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/3/3c/Sharkskin_universal.jpg/revision/latest?cb=20241017091741"
+    },
+    ["Divine Ditz"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/6/6c/DivineDitz.png/revision/latest?cb=20240824050141",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/0/09/Divine_Ditz_Gold.png/revision/latest?cb=20240906234719",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/c/cf/Aqua-Rainbow.png/revision/latest?cb=20241017205404",
+        Universal = ""
+    },
+    ["Frosty Fighter"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/8/8c/FrostyFighter.png/revision/latest?cb=20240819000852",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a0/Frosty_Fighter_Gold.png/revision/latest?cb=20240906230816",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/7/7d/Frosty_Fighter_Rainbow.png/revision/latest?cb=20240909235941",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/1/10/Frosty_Fighter_Universal.jpg/revision/latest?cb=20240913170205"
+    },
+    ["Ice Princess"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/8/86/Rukia.png/revision/latest?cb=20240901125629",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e2/Rukia-Gold.png/revision/latest?cb=20240909202428",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/9/97/Rukia-Rainbow.png/revision/latest?cb=20241009185203",
+        Universal = ""
+    },
+    ["Witch of Frost"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/c/ca/WitchOfFrost.png/revision/latest?cb=20240819001009",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/c/c2/Witch_of_Frost_Gold.png/revision/latest?cb=20240906132554",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["The Fool"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/c/c9/TheFool.png/revision/latest?cb=20240901112326",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/8/88/The_Fool_Gold.png/revision/latest?cb=20240906231728",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e6/The_Fool_Rainbow.png/revision/latest?cb=20240808063528",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/6/62/The_Fool_Universal.png/revision/latest?cb=20240908170421"
+    },
+    ["The Alchemist"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/d/d2/TheAlchemist.png/revision/latest?cb=20240819001132",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/b/b4/The_Alchemist_Gold.png/revision/latest?cb=20240906125157",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/b/bd/The_Alchemist_Rainbow.png/revision/latest?cb=20240906125341",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/b/b9/Edward-Uni.png/revision/latest?cb=20240910214451"
+    },
+    ["Desert Phantom"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/1/18/Desert_Phantom.png/revision/latest?cb=20240901131414",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/c/cd/Desert_Phantom_Gold.png/revision/latest?cb=20240908163903",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Flicker God"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/c/cb/FlickerGod.png/revision/latest?cb=20240908071206",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/4/4a/Flicker_God_Gold.png/revision/latest?cb=20240908124449",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f2/Flicker_God_Rainbow.png/revision/latest?cb=20240906233837",
+        Universal = ""
+    },
+    ["Rogue Ninja"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e0/RougeNinja.png/revision/latest?cb=20240908111601",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/b/b8/Rouge_Ninja_Gold.png/revision/latest?cb=20240908124737",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Heroic Traitor"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/b/b5/HeroicTraitor.png/revision/latest?cb=20240908123343",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/6/6b/Heroic_Traitor_Gold.png/revision/latest?cb=20240908203606",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/9/9b/Itachi-Rainbow.png/revision/latest?cb=20241031162907",
+        Universal = ""
+    },
+    ["Returner"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/0/05/Returner.png/revision/latest?cb=20240908071550",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/4/43/Returner_Gold.png/revision/latest?cb=20240908115216",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/4/48/Returner_Rainbow.png/revision/latest?cb=20240909210621",
+        Universal = ""
+    },
+    ["Abyssal Monarch"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f9/AbyssalMonarch.png/revision/latest?cb=20240908115325",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/3/36/Anos-Gold.png/revision/latest?cb=20240924220634",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Eternal Lich"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/3/3e/EternalLichV2.png/revision/latest?cb=20240909213439",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a6/Ainz-Gold.png/revision/latest?cb=20240923172422",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/d/d8/Rb_eternal_lich_v2.png/revision/latest?cb=20241104130452",
+        Universal = ""
+    },
+    ["White Hawk"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/1/1f/Griffithbuff.png/revision/latest?cb=20240908093110",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/c/c5/White_Hawk_Gold.png/revision/latest?cb=20240907001157",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/6/61/Griffith-Rainbow.png/revision/latest?cb=20241003233627",
+        Universal = ""
+    },
+    ["Black Swordsman"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a5/Gutsbuff.png/revision/latest?cb=20240908093041",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/2/29/Gold_black_swordman.jpg/revision/latest?cb=20240919133551",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/d/de/Guts-Rainbow.png/revision/latest?cb=20241009063147",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e2/Guts-Universal.png/revision/latest?cb=20241010102053"
+    },
+    ["Null"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/0/0d/Null.png/revision/latest?cb=20240909165148",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/2/2c/Null_Gold.png/revision/latest?cb=20240909234849",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/c/c7/Null-Rainbow.png/revision/latest?cb=20240923020440",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/4b/Null-Uni.png/revision/latest?cb=20241018030923"
+    },
+    ["Star Warrior"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/c/c9/StarWarrior.png/revision/latest?cb=20240908132409",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f0/Star_Warrior_Gold.png/revision/latest?cb=20240907013531",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/a/af/Seiya-Rainbow.png/revision/latest?cb=20241102224838",
+        Universal = ""
+    },
+    ["Moonlight Guardian"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f5/MoonlightGaurdian.png/revision/latest?cb=20240901130235",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/2/23/Gold_Moonlight_Guardian.png/revision/latest?cb=20241006182925",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/5/59/Sailor-Rainbow.png/revision/latest?cb=20241031161925",
+        Universal = ""
+    },
+    ["Sacred Heart"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/e/ee/SacredHeartV2.png/revision/latest?cb=20240908071914",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a1/Sacred_Heart_Gold.png/revision/latest?cb=20240909211635",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/d/d4/Sacred_Heart_Rainbow.png/revision/latest?cb=20240916092803",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e1/Sacred_Heart_Universal.png/revision/latest?cb=20241112175033"
+    },
+    ["Phantom Edge"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/6/67/PhantomEdge.png/revision/latest?cb=20240909193605",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/8/8f/PhantomEdge-Gold.png/revision/latest?cb=20240910064102",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/7/78/Phantom_Edge_Rainbow.png/revision/latest?cb=20240922135817",
+        Universal = ""
+    },
+    ["Wandering Samurai"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/2/2d/WanderingSamurai.png/revision/latest?cb=20240909195837",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/6/68/Musashi-Gold.png/revision/latest?cb=20240923172638",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/f/fa/Rainbow_musashi.png/revision/latest?cb=20241020042654",
+        Universal = ""
+    },
+    ["Sly Snake"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/d/d9/Sly_Snake.png/revision/latest?cb=20240908081255",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/9/9d/WhiteSnake-Gold.png/revision/latest?cb=20241001125852",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Lunar Moon"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/a/ae/Lunar_Moon.png/revision/latest?cb=20240908081712",
+        Gold = "",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Infinite Horizon"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f8/Infinite_Horizon.png/revision/latest?cb=20240908032404",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/c/c3/Pucci-Gold.png/revision/latest?cb=20241006052115",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Galactic Tyrant"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/b/b0/GalacticTyrant.png/revision/latest?cb=20240901123330",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/c/c5/Galactic_Tyrant_Gold.png/revision/latest?cb=20240906233701",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/6/6b/Galactic_Tyrant_Rainbow.png/revision/latest?cb=20240907002415",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/5/5d/Galactic_Tyrant_Universal.png/revision/latest?cb=20240909130650"
+    },
+    ["Shinobi God"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/1/11/ShinobiGod.png/revision/latest?cb=20240819002009",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/4/48/Shinobi_God_Gold.png/revision/latest?cb=20240907002501",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/4/4d/Shinobi_God_Rainbow.png/revision/latest?cb=20240908160043",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/e/ea/Madara-Universal.png/revision/latest?cb=20241009063546"
+    },
+    ["King of Curses"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/4c/Newsukuna.png/revision/latest?cb=20240901115423",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/5/5f/King_of_Curses_Gold.png/revision/latest?cb=20240907011053",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/2/2d/Sukuna-Rainbow.png/revision/latest?cb=20240923161002",
+        Universal = ""
+    },
+    ["Cifer"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/6/6c/Cifer.png/revision/latest?cb=20240807055636",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/7/7c/Cifer_Gold.png/revision/latest?cb=20240907130343",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a4/Cifer_Rainbow.png/revision/latest?cb=20240907002602",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/a/ae/Cifer-Universal.png/revision/latest?cb=20241120110057"
+    },
+    ["Wicked Weaver"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/3/36/Wicked_Weaver.png/revision/latest?cb=20240901132929",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/c/ce/WickedWeaver-Gold.png/revision/latest?cb=20240909223212",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Cosmic Menace"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/3/31/Cosmic_Menace.png/revision/latest?cb=20240812053356",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f8/Cosmic_Menace_Gold.png/revision/latest?cb=20240909130236",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/5/5d/Boros-Rainbow.png/revision/latest?cb=20241013141712",
+        Universal = ""
+    },
+    ["Immortal Demon"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/8/8d/Immortal_Demon.png/revision/latest?cb=20240901121537",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e4/Muzan-Gold.png/revision/latest?cb=20240913030137",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Cursed Gambler"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a7/CursedGambler.png/revision/latest?cb=20240819002142",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/7/70/Cursed_Gambler_Gold.png/revision/latest?cb=20240906181254",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/f/fb/Cursed_Gambler_Rainbow.png/revision/latest?cb=20240808035116",
+        Universal = ""
+    },
+    ["Hawk Eye"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/1/12/HawkEye.png/revision/latest?cb=20240830214939",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/d/d2/Hawk_Eye_Gold.png/revision/latest?cb=20240906131459",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/3/3e/Rainbow_Hawk_Eye.jpg/revision/latest?cb=20240916170948",
+        Universal = ""
+    },
+    ["Red Haired Swordsman"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e8/RedHairedSwordsman.png/revision/latest?cb=20240830214425",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a0/Red_Haired_Swordsman_Gold.png/revision/latest?cb=20240906131907",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/6/68/Red_Haired_Swordsman_Rainbow.png/revision/latest?cb=20240906235341",
+        Universal = ""
+    },
+    ["Adaptive Titan"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/0/0b/New_maho.png/revision/latest?cb=20240909121218",
+        Gold = "",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/7/7b/Mahoraga-Rainbow.png/revision/latest?cb=20241117235655",
+        Universal = ""
+    },
+    ["Starlight Devourer"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/b/b7/Starlight_Devourer.png/revision/latest?cb=20240908034844",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f0/Starlight_Devourer_Gold.png/revision/latest?cb=20240917110323",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/1/1a/Garou-Rainbow.png/revision/latest?cb=20241104151731",
+        Universal = ""
+    },
+    ["Black Sea Warlord"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/8/81/Black_Sea_Warlord.png/revision/latest?cb=20240908080604",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/d/d1/Black_Sea_Warlord_Gold.png/revision/latest?cb=20240909122012",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Feline Enforcer"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/2/2f/Feline_Enforcer.png/revision/latest?cb=20240922002112",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/c/cb/Pitou-Gold.png/revision/latest?cb=20241006060815",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Stoic Crusher"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/3/3f/Stoic_Crusher.jpg/revision/latest?cb=20240921212454",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/9/9a/Jiren-Gold.png/revision/latest?cb=20240923180031",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/4/49/Jiren-Rainbow.png/revision/latest?cb=20240923184332",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a4/Jiren-Universal.png/revision/latest?cb=20241004024611"
+    },
+    ["Lord of Destruction"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f0/Lord_of_Destruction.png/revision/latest?cb=20240922001741",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/3/3e/Beerus-Gold.png/revision/latest?cb=20240923175124",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Space Cowboy"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/c/cf/SpaceCowboy-Normal.png/revision/latest?cb=20241006003106",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/6/6a/GoldSpaceCowboy.png/revision/latest?cb=20241007072336",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e0/Bebop-Rainbow.png/revision/latest?cb=20241007050021",
+        Universal = ""
+    },
+    ["Scarlet Samurai"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/7/72/ScarletSamurai-Normal.png/revision/latest?cb=20241006004947",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e4/Kenshin-Gold.png/revision/latest?cb=20241007045036",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/0/0f/Kenshin-Rainbow.png/revision/latest?cb=20241006175008",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e9/Kenshin-Universal.png/revision/latest?cb=20241026025755"
+    },
+    ["Spirit Detective"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f7/Yusuke-Normal.png/revision/latest?cb=20241006010302",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/6/62/Spirit-Detective-Gold.png/revision/latest?cb=20241108013131",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/7/7c/Spirit_Detective_Rainbow.png/revision/latest?cb=20241011062510",
+        Universal = ""
+    },
+    ["Jaganshi"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/c/ca/Jaganshi-Normal.png/revision/latest?cb=20241006005542",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e1/Jaganshi-Gold.png/revision/latest?cb=20241006180205",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Second Child"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/8/88/Asuka-Normal.png/revision/latest?cb=20241006011056",
+        Gold = "",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["First Child"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/7/72/Rei-Normal.png/revision/latest?cb=20241006014137",
+        Gold = "",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Martial Artist of Destiny"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/41/Martial_Artist_of_Destiny-Normal.png/revision/latest?cb=20241006015622",
+        Gold = "",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/6/6d/Martial_Artist_of_Destiny-Rainbow.png/revision/latest?cb=20241006021922",
+        Universal = ""
+    },
+    ["Humanoid Typhoon"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/9/95/Vash-Normal.png/revision/latest?cb=20241006020117",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/b/b5/Vash-Gold.png/revision/latest?cb=20241006063849",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Rebel Racer"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/3/3e/RebelRacer-Normal.png/revision/latest?cb=20241006021013",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/1/17/RebelRacer-Gold.png/revision/latest?cb=20241006035642",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/8/8e/RebelRacer-Rainbow.png/revision/latest?cb=20241102193544",
+        Universal = ""
+    },
+    ["Speed Demon"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/c/c6/SpeedDemon-Normal.png/revision/latest?cb=20241006022258",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/4/4e/SpeedDemon-Gold.png/revision/latest?cb=20241006052919",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Sky King"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e4/Enel-Normal.png/revision/latest?cb=20241006042537",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e8/Enel-Gold.png/revision/latest?cb=20241006042823",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/c/cb/Enel-Rainbow.png/revision/latest?cb=20241010032115",
+        Universal = ""
+    },
+    ["King of the Seven Seas"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/2/26/Sinbad-Normal.png/revision/latest?cb=20241006045245",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/9/92/Sinbad-Gold.png/revision/latest?cb=20241006045516",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/3/3e/Sinbad-Rainbow.png/revision/latest?cb=20241017105916",
+        Universal = ""
+    },
+    ["Mother of All Shinobi"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/7/74/Kaguya-Normal.png/revision/latest?cb=20241006050328",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/1/14/Kaguya-Gold.png/revision/latest?cb=20241010175034",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Knight of the Sea"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/8/8e/Jinbei-Normal.png/revision/latest?cb=20241013120732",
+        Gold = "",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Ice Queen"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f3/Esdeath-Normal.png/revision/latest?cb=20241013121704",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/0/0f/Esdeath-Gold.png/revision/latest?cb=20241023180228",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Old Wise Man"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/b/b4/Ohnoki-Normal.png/revision/latest?cb=20241013123142",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/c/c7/Ohnoki-Gold.png/revision/latest?cb=20241023180722",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Dimensional Weaver"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/b/bb/Obito-Normal.png/revision/latest?cb=20241013123839",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/1/13/Obito-Gold.png/revision/latest?cb=20241013143459",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f6/Obito-Rainbow.png/revision/latest?cb=20241023193330",
+        Universal = ""
+    },
+    ["Jobless Magician"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/8/86/Rudeus-Normal.png/revision/latest?cb=20241013124453",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/6/6c/Gold_Jobless_Magician.png/revision/latest?cb=20241025025920",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Master Of Causality"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/3/31/MasterOfCausality-Normal.png/revision/latest?cb=20241013132552",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f3/Void-Gold.png/revision/latest?cb=20241017011531",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Skeletal Knight"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/7/7b/SkeletalKnight-Normal.png/revision/latest?cb=20241013133927",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/d/d8/SkeletalKnight-Gold.png/revision/latest?cb=20241013143025",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/6/65/SkeletalKnight-Rainbow.png/revision/latest?cb=20241101180753",
+        Universal = ""
+    },
+    ["Alien Hunter"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/3/3a/AlienHunter-Normal.png/revision/latest?cb=20241013134522",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/0/0f/AlienHunter-Gold.png/revision/latest?cb=20241013142223",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/c/c9/AlienHunter-Rainbow.png/revision/latest?cb=20241116221854",
+        Universal = ""
+    },
+    ["Book Author"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/c/c9/HeavensDoor-Normal.png/revision/latest?cb=20241013140910",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e0/HeavensDoor-Gold.png/revision/latest?cb=20241018040601",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Army General"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/d/d4/ArmyGeneral-Normal.png/revision/latest?cb=20241013135727",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/2/2c/ArmyGeneral-Gold.png/revision/latest?cb=20241013141954",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/0/0d/ArmyGeneral-Rainbow.png/revision/latest?cb=20241021144024",
+        Universal = ""
+    },
+    ["Green Alien"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/1/1e/Picolo-Normal.png/revision/latest?cb=20241019221247",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e9/Picolo-Gold.png/revision/latest?cb=20241022025906",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Rider of Black"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/9/9c/Astolfo-Normal.png/revision/latest?cb=20241019221744",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/3/39/Astolfo-Gold.png/revision/latest?cb=20241023214916",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Deer Girl"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/4c/Nokotan-Normal.PNG/revision/latest/scale-to-width-down/1000?cb=20241019231158",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/8/87/Shikanokotan-Gold.png/revision/latest?cb=20241023215111",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/7/7d/Shikanokotan-Rainbow.png/revision/latest?cb=20241023220106",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/f/fc/Universal_deergirl_v2.png/revision/latest?cb=20241031011048"
+    },
+    ["The Emperor’s Bullet"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/1/1f/TheEmperorBullet-Normal.png/revision/latest?cb=20241019230432",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/2/25/Gold_The_Emperors_Bullet.png/revision/latest?cb=20241025024134",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/7/7b/Rainbow_The_Emperors_Bullet.png/revision/latest?cb=20241025023507",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/1/19/TheEmperorsBullet-Universal.png/revision/latest?cb=20241104113945"
+    },
+    ["Soul Witch"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/b/bb/SoulWitch-Normal.png/revision/latest?cb=20241028144651",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/6/62/SoulWitch-Gold.png/revision/latest?cb=20241102134942",
+        Rainbow = "",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/3/32/SoulWitch-Universal.png/revision/latest?cb=20241029024232"
+    },
+    ["The Reaper"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/3/36/TheReaper-Normal.png/revision/latest?cb=20241028144235",
+        Gold = "",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/2/20/TheReaper-Rainbow.png/revision/latest?cb=20241102043249",
+        Universal = ""
+    },
+    ["Honorable Seven"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f5/HonorableSeven-Normal.png/revision/latest?cb=20241028142850",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f5/Hanako-Gold.png/revision/latest?cb=20241028211000",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/3/37/Hanako-Rainbow.png/revision/latest?cb=20241106151316",
+        Universal = ""
+    },
+    ["Flame Jester"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a1/FlameJester-Normal.png/revision/latest?cb=20241028142218",
+        Gold = "",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/0/09/Screenshot_2024-11-04_031755.png/revision/latest?cb=20241104031546",
+        Universal = ""
+    },
+    ["Wild Panther"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/7/76/Grimjow-Normal.png/revision/latest?cb=20241028141125",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/3/30/Grimmjow-Gold.png/revision/latest?cb=20241028162109",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/7/78/Grimmjow-Rainbow.png/revision/latest?cb=20241102135115",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e1/Grimmjow-Universal.png/revision/latest?cb=20241102135235"
+    },
+    ["Soul King"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e5/Brook-Normal.png/revision/latest?cb=20241028140354",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/7/72/Brook-Gold.png/revision/latest?cb=20241028161843",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/3/31/Brook-Rainbow.png/revision/latest?cb=20241028205431",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/6/63/Brook-Universal.png/revision/latest?cb=20241029220343"
+    },
+    ["Haunted Sorcerer"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/0/03/Yuta-Normal.png/revision/latest?cb=20241028141839",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/2/24/Haunted-Sorcerer-Gold.png/revision/latest?cb=20241109142154",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["God of Death"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a9/Ryuk-Normal.png/revision/latest?cb=20241028130416",
+        Gold = "",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Endless Night"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/d/de/Kurumi-Normal.png/revision/latest?cb=20241028122801",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/3/39/Kurumi-Gold.png/revision/latest?cb=20241102042511",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/a/ae/Kurumi-Rainbow.png/revision/latest?cb=20241102042452",
+        Universal = ""
+    },
+    ["Brutal Punishment"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/c/cf/Jason-Normal.png/revision/latest?cb=20241028120921",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/2/26/Jason-Gold.png/revision/latest?cb=20241028161727",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/2/26/Jason-Rainbow.png/revision/latest?cb=20241028161524",
+        Universal = "https://static.wikia.nocookie.net/anime-card-battle/images/7/71/Jason-Universal.png/revision/latest?cb=20241107231021"
+    },
+    ["Queen of the Undead"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/8/87/Shalltear-Normal.png/revision/latest?cb=20241028160935",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/7/70/Shalltear-Gold.png/revision/latest?cb=20241103234516",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Ghost Princess"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e2/Perona-Normal.png/revision/latest?cb=20241028155831",
+        Gold = "",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["The Meister"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/b/bd/Maka-Normal.png/revision/latest?cb=20241028145904",
+        Gold = "",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["F: Fear"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/a/ac/Nodt-Normal.png/revision/latest?cb=20241028155156",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/2/2a/Nodt-Gold.png/revision/latest?cb=20241028204254",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Blood Demon"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/e/ee/Power-Normal.png/revision/latest?cb=20241119000629",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/1/1f/Power-Gold.png/revision/latest?cb=20241119014145",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["War Godess"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/4b/Mikasa-Normal.png/revision/latest?cb=20241119001405",
+        Gold = "",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Lancer Master"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/1/1c/LanceMaster-Normal.png/revision/latest?cb=20241119001918",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/1/12/LanceMaster-Gold.png/revision/latest?cb=20241119010532",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Demon Sister"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/4d/Nezuko-Normal.png/revision/latest?cb=20241119002335",
+        Gold = "",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/4/43/Demon_Sister_Rainbow.png/revision/latest?cb=20241120044456",
+        Universal = ""
+    },
+    ["Electric Princess"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/9/94/Misaka-Normal.png/revision/latest?cb=20241119003511",
+        Gold = "",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["White Eyed Princess"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/2/25/Hinata-Normal.png/revision/latest?cb=20241119004218",
+        Gold = "",
+        Rainbow = "https://static.wikia.nocookie.net/anime-card-battle/images/c/c4/White_eyed_princess_rainbow.png/revision/latest?cb=20241119050305",
+        Universal = ""
+    },
+    ["Capsule Girl"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/d/dd/Bulma-Normal.png/revision/latest?cb=20241119004757",
+        Gold = "",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Unstoppable Gambler"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/49/Unstoppable_Gambler.png/revision/latest?cb=20241119005423",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/a/aa/Yumeko-Gold.png/revision/latest?cb=20241119014918",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Zodiac Queen"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/0/05/Zodiac_Queen.png/revision/latest?cb=20241119010045",
+        Gold = "",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Time Queen"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/4/4b/Time_Queen.png/revision/latest?cb=20241119010342",
+        Gold = "",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Crazed Hero"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/9/91/Crazed_Hero.png/revision/latest?cb=20241119024340",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/3/36/Crazed_Hero_Gold.png/revision/latest?cb=20241119053456",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Nameless Monster"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/9/95/Johan-Normal.png/revision/latest?cb=20241119032721",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/1/18/NamelesMonsterGold.png/revision/latest?cb=20241120014009",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["One Eye"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e2/Kaneki-Normal.png/revision/latest?cb=20241119034217",
+        Gold = "",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Snake God"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/3/34/Orochimaru-Normal.png/revision/latest?cb=20241119035227",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/c/c5/Orochimaru-Gold.png/revision/latest?cb=20241119043136",
+        Rainbow = "",
+        Universal = ""
+    },
+    ["Magician Clown"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/1/11/Hisoka-Normal.png/revision/latest?cb=20241119035729",
+        Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/5/57/Hisoka-Gold.png/revision/latest?cb=20241120043243",
+        Rainbow = "",
+        Universal = ""
+    }
+}
+
+getgenv().supportImages = {
+    ["Wooden Log"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/9/90/WoodenLog.jpg/revision/latest?cb=20240818211946"
+    },
+    ["Ninja Vest"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/6/6c/NinjaVest.jpg/revision/latest?cb=20240818212019"
+    },
+    ["Power Candy"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/8/88/PowerCandy.jpg/revision/latest?cb=20240818212050"
+    },
+    ["Lucky Charm"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/8/8d/LuckyCharm.jpg/revision/latest?cb=20240818212108"
+    },
+    ["Candy Fiend"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/0/01/CandyFiend.jpg/revision/latest?cb=20240818212130"
+    },
+    ["Shadow Strategist"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/e/e9/ShadowStrategist.jpg/revision/latest?cb=20240818212150"
+    },
+    ["Ethereal Protector"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/1/11/EtherealProtector.jpg/revision/latest?cb=20240818212208"
+    },
+    ["Slug Medic"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/6/68/SlugMedicV2.png/revision/latest?cb=20240908133335"
+    },
+    ["Super Idol"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/8/88/SuperIdol.jpg/revision/latest?cb=20240818212243"
+    },
+    ["Celestial Circlet"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/a/a0/Celestial_Circlet.png/revision/latest?cb=20240908030403"
+    },
+    ["Crimson Thorn"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/9/95/Crimson_Thorn.png/revision/latest?cb=20240908005557"
+    },
+    ["Scriptkeeper"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/9/98/Scriptkeeper.png/revision/latest?cb=20240908075542"
+    },
+    ["Dragon's Flame"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f0/Dragon%27s_Flame.png/revision/latest?cb=20240908012628"
+    },
+    ["Hero's Sword"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/1/1a/Hero%27s_Sword.png/revision/latest?cb=20240908020548"
+    },
+    ["Truck-Kun"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/b/b7/Truck-Kun.png/revision/latest?cb=20240908074415"
+    },
+    ["Little Saw"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/8/89/Little_Saw.png/revision/latest?cb=20240908010445"
+    },
+    ["Grief Seed"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/3/36/Greif_Seed.png/revision/latest?cb=20240908020510"
+    },
+    ["Casull & Jackal"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/2/20/Casull_%26_Jackal.png/revision/latest?cb=20240908005334"
+    },
+    ["Beherit"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/0/08/Beherit.png/revision/latest?cb=20241006224336"
+    },
+    ["Universal Synergy"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/7/76/Universal_Synergy.png/revision/latest?cb=20241007073247"
+    },
+    ["Vampire Mask"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/9/9a/Vampire_Mask.png/revision/latest?cb=20241006225901"
+    },
+    ["Alloyed Yo-Yo"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/f/f3/Alloyed_Yo-Yo.png/revision/latest/scale-to-width-down/127?cb=20241006225652"
+    },
+    ["Refreshing Beans"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/7/7e/Refreshing_Beans.png/revision/latest?cb=20241006230756"
+    },
+    ["Cherry Blossom Healing"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/c/cc/Cherry_Healing.png/revision/latest?cb=20241006225302"
+    },
+    ["Adaptation Wheel"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/d/d9/Adaptation_wheel.png/revision/latest?cb=20241009000733"
+    },
+    ["Reinhard's Blessing"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/9/92/Reinhard%27s_Bless.png/revision/latest?cb=20241006224026"
+    },
+    ["Omnidirectional Gear"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/5/5a/OmniGear.png/revision/latest?cb=20241006234823"
+    },
+    ["Philosopher Stone"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/c/ca/PhilosopherStone.png/revision/latest?cb=20241007185630"
+    },
+    ["Resonance Blade"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/1/1a/SoulEater-Normal.png/revision/latest?cb=20241028123646"
+    },
+    ["Ghost"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/7/71/Ghost-Normal.png/revision/latest?cb=20241028124638"
+    },
+    ["Big Scissor"] = {
+        Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/3/3a/BigScissor-Normal.png/revision/latest?cb=20241028124652"
+    }
+}
+
 getgenv().code = {
-    "/code HOTFIX8.1!",
-    "/code UPDATE4!",
-    "/code 50KLIKES!",
-    "/code 30MVISITS!",
-    "/code SUB2TOADBOI!",
-    "/code SUB2RIJORO!",
-    "/code SUB2VALK!",
-    "/code SUB2WIRY!",
-    "/code SUB2CONSUME!",
-    "/code SUB2D1SGUISED!",
-    "/code SUB2ItsHappyYT1!",
-    "/code SUB2Joltzy!",
-    "/code FOLLOWEXVAR!",
-    "/code DAVIDSTHEBEST!",
-    "/code YAMISTHEBEST!",
-    "/code 15KLIKES!",
-    "/code 20KLIKES!",
-    "/code 25KLIKES!",
-    "/code 30KLIKES!",
-    "/code 10MVISITS!",
-    "/code 15MVISITS!",
-    "/code 20MVISITS!",
-    "/code SORRYFORTHATBUGMYBAD!",
-    "/code UPDATE3.5!",
-    "/code 2KTWITTERFOLLOWS!",
-    "/code SUB221PACK!",
-    "/code SUB2Vault_tec10!",
-    "/code SUB2BMGTORMENTER!",
-    "/code SUB2ZEEBEWILDIN!",
-    "/code FOLLOWTTVSEHSIE!",
-    "/code 60KLIKES!",
-    "/code 40MVISITS!",
-    "/code UPDATE5!",
-    "/code 60MVISITS!",
-    "/code UPDATE7!",
-    "/code 70KLIKES!",
-    "/code 50MVISITS!",
-    "/code UPDATE6!",
-    "/code WELCOMENEWDEVS!",
-    "/code UPDATE8!",
-    "/code HALLOWEENISHERE!",
-    "/code UPDATE9!",
-    "/code 70MVISITS!",
-    "/code 80MVISITS!",
-    "/code UPDATE10!",
-    "/code SORRYABOUTDELAY!",
-    "/code GUILDUPDATE!",
-    "/code OOPSYDAISY!",
-    "/code EVOCHANGES!",
-    "/code TURKEYDAY!",
-    "/code TIMEFORPRESENTS!",
-    "/code CHRISTMASISHERE!",
-    "/code 90MVISITS!",
-    "/code CHRISTMASDAY!",
-    "/code 100MVISITS!",
-    "/code SENSEIPACK!",
-    "/code SENSEIPACKMILESTONE!",
-    "/code LATENIGHTSHUTDOWNBUGFIX!",
-    "/code MADEINDELAY",
+    "HOTFIX8.1!",
+    "UPDATE4!",
+    "50KLIKES!",
+    "30MVISITS!",
+    "SUB2TOADBOI!",
+    "SUB2RIJORO!",
+    "SUB2VALK!",
+    "SUB2WIRY!",
+    "SUB2CONSUME!",
+    "SUB2D1SGUISED!",
+    "SUB2ItsHappyYT1!",
+    "SUB2Joltzy!",
+    "FOLLOWEXVAR!",
+    "FOLLOWTTVSEHSIE!",
+    "SUB2ZEEBEWILDIN!",
+    "SUB2BMGTORMENTER!",
+    "SUB2Vault_tec10!",
+    "SUB221PACK!",
+    "2KTWITTERFOLLOWS!",
+    "WELCOMENEWDEVS!",
+    "15KLIKES!",
+    "20KLIKES!",
+    "25KLIKES!",
+    "30KLIKES!",
+    "10MVISITS!",
+    "15MVISITS!",
+    "20MVISITS!",
+    "SORRYFORTHATBUGMYBAD!",
+    "UPDATE3.5!",
+    "2KTWITTERFOLLOWS!",
+    "SUB221PACK!",
+    "SUB2Vault_tec10!",
+    "SUB2BMGTORMENTER!",
+    "SUB2ZEEBEWILDIN!",
+    "FOLLOWTTVSEHSIE!",
+    "60KLIKES!",
+    "40MVISITS!",
+    "UPDATE5!",
+    "60MVISITS!",
+    "UPDATE7!",
+    "70KLIKES!",
+    "50MVISITS!",
+    "UPDATE6!",
+    "WELCOMENEWDEVS!",
+    "UPDATE8!",
+    "HALLOWEENISHERE!",
+    "UPDATE9!",
+    "70MVISITS!",
+    "80MVISITS!",
+    "UPDATE10!",
+    "SORRYABOUTDELAY!",
+    "GUILDUPDATE!",
+    "OOPSYDAISY!",
+    "EVOCHANGES!",
+    "TURKEYDAY!",
+    "TIMEFORPRESENTS!",
+    "CHRISTMASISHERE!",
+    "90MVISITS!",
+    "CHRISTMASDAY!",
+    "100MVISITS!",
+    "SENSEIPACK!",
+    "SENSEIPACKMILESTONE!",
+    "LATENIGHTSHUTDOWNBUGFIX!",
+    "MADEINDELAY",
+    "BLIZZARD!",
+    "BUGDEMOLISH!",
+    "TOMSTHEBEST!",
+    "NILESTHEBEST!",
+    "DRACTHEBEST!",
+    "DAVIDTHEBEST!",
+    "DRETSTHEBEST!",
+    "YAMITHEBEST",
+    "PEPPERSTHEBEST!",
+    "80KLIKES!",
 }
