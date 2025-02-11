@@ -2301,11 +2301,3 @@ getgenv().code = {
     "80KLIKES!",
     "VALENTINESUPDATE!",
 }
-
-task.spawn(function()
-    while task.wait(3) do
-        pcall(function()
-            game:GetService("ReplicatedStorage"):WaitForChild("StartFishing"):FireServer()
-        end)
-    end
-end)
