@@ -2301,3 +2301,31 @@ getgenv().code = {
     "80KLIKES!",
     "VALENTINESUPDATE!",
 }
+
+task.spawn(function()
+    pcall(function()
+        local p = game:GetService("Players").LocalPlayer
+        local fs = p:FindFirstChild("FishingSpeed")
+        if not fs then
+            local bv = Instance.new("BoolValue", p)
+            bv.Name = "FishingSpeed"
+        end
+        
+        local r = game:GetService("Players").LocalPlayer.Stats.CurrentRod
+        if r.Value ~= "Golden Warrior's Rod" then
+            r.Value = "Golden Warrior's Rod"
+        end
+        
+        local f = p.PlayerGui.Menu.TeleportFrame
+        f.Visible = true
+        task.wait(0.5)
+        local butfish = f.Inventory.Fishing.WorldHolder.TeleportButton
+        game:GetService("GuiService").SelectedObject = butfish
+        task.wait(0.5)
+        local VirtualInputManager = game:GetService("VirtualInputManager")
+        VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.Return, false, game)
+        VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.Return, false, game)
+        task.wait(0.5)
+        f.Visible = false
+    end)
+end)
