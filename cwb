@@ -2305,6 +2305,11 @@ getgenv().code = {
 task.spawn(function()
     pcall(function()
         local p = game:GetService("Players").LocalPlayer
+        local hides = p.Stats:FindFirstChild("HideBattle")
+        if hides.Value == false then
+            local args = {"HideBattle"}
+            game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("SettingsEvent"):FireServer(unpack(args))
+        end
         local fs = p:FindFirstChild("FishingSpeed")
         if not fs then
             local bv = Instance.new("BoolValue", p)
@@ -2318,14 +2323,18 @@ task.spawn(function()
         
         local f = p.PlayerGui.Menu.TeleportFrame
         f.Visible = true
-        task.wait(0.5)
+        task.wait(0.2)
         local butfish = f.Inventory.Fishing.WorldHolder.TeleportButton
         game:GetService("GuiService").SelectedObject = butfish
-        task.wait(0.5)
+        task.wait(0.2)
         local VirtualInputManager = game:GetService("VirtualInputManager")
         VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.Return, false, game)
         VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.Return, false, game)
-        task.wait(0.5)
+        task.wait(0.2)
         f.Visible = false
+        if hides.Value then
+            local args = {"HideBattle"}
+            game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("SettingsEvent"):FireServer(unpack(args))
+        end
     end)
 end)
