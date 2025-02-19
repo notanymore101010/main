@@ -2390,5 +2390,18 @@ task.spawn(function()
             local args = {"HideBattle"}
             game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("SettingsEvent"):FireServer(unpack(args))
         end
+
+        local fishingnotoconn
+        local player = game.Players.LocalPlayer
+        local holder = player.PlayerGui.NotoficationUI.NotoHolder
+        
+        fishingnotoconn = holder.ChildAdded:Connect(function(frame)
+            if frame:IsA("Frame") then
+                local text = frame.TextLabel
+                if string.find(text.Text, "You are already Fishing!") then
+                    frame:Destroy()
+                end
+            end
+        end)
     end)
 end)
