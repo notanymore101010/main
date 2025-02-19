@@ -1,4 +1,4 @@
---[[getgenv().cardImages = {
+getgenv().cardImages = {
     ["Bandit"] = {
         Normal = "https://static.wikia.nocookie.net/anime-card-battle/images/2/24/Bandit_norm.png/revision/latest?cb=20240818184819",
         Gold = "https://static.wikia.nocookie.net/anime-card-battle/images/c/ce/Bandit_Gold.png/revision/latest?cb=20240906140440",
@@ -2126,7 +2126,7 @@ getgenv().cardImages = {
         Rainbow = "",
         Universal = ""
     }
-}]]--
+}
 
 getgenv().supportImages = {
     ["Wooden Log"] = {
