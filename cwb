@@ -2358,6 +2358,23 @@ getgenv().itemthing = {
 
 task.spawn(function()
     pcall(function()
+        for _, boss in pairs(workspace.RepeatableBosses:GetChildren()) do
+            if boss:IsA("Model") then
+                boss.ModelStreamingMode = Enum.ModelStreamingMode.Persistent
+            end
+        end
+        
+        for _, boss in pairs(workspace.Bosses:GetChildren()) do
+            if boss:IsA("Model") then
+                boss.ModelStreamingMode = Enum.ModelStreamingMode.Persistent
+            end
+        end
+        
+        for _, object in pairs(workspace.NPCs:GetDescendants()) do
+            if object:IsA("Model") then
+                object.ModelStreamingMode = Enum.ModelStreamingMode.Persistent
+            end
+        end
         local p = game:GetService("Players").LocalPlayer
         local hides = p.Stats:FindFirstChild("HideBattle")
         if hides.Value == false then
