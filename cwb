@@ -2381,16 +2381,6 @@ task.spawn(function()
             local args = {"HideBattle"}
             game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("SettingsEvent"):FireServer(unpack(args))
         end
-        local fs = p:FindFirstChild("FishingSpeed")
-        if not fs then
-            local bv = Instance.new("BoolValue", p)
-            bv.Name = "FishingSpeed"
-        end
-        
-        local r = game:GetService("Players").LocalPlayer.Stats.CurrentRod
-        if r.Value ~= "Golden Warrior's Rod" then
-            r.Value = "Golden Warrior's Rod"
-        end
         
         local f = p.PlayerGui.Menu.TeleportFrame
         f.Visible = true
