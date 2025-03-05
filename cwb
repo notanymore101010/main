@@ -2363,6 +2363,7 @@ getgenv().itemthing = {
     ["Evolved Luck Potion 3"] = "<:EvolvedMegaLuckPotion:1346936376054251640>",
     ["Evolved Luck Potion"] = "<:EvolvedLuckPotion:1346937174020591761>",
     ["Rare Treasure Chest"] = "<:RareTreasureChest:1346937588849836083>",
+    ["Poseidon Potion"] = "<:PoseidonPotion:1346938427685208158>",
 }
 
 task.spawn(function()
