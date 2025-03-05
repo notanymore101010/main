@@ -2354,6 +2354,10 @@ getgenv().itemthing = {
     ["Cupids Spell Potion"] = "<:CupidsSpellPotion:1338381970878763038>",
     ["Cupids Blessing Potion"] = "<:CupidsBlessingPotion:1338381935822508083>",
     ["Valentine Weather Potion"] = "<:ValentineWeatherPotion:1338381149839560724>",
+    ["Legendary Treasure Chest"] = "<:LegendaryTreasureChest:1346931431363973252>",
+    ["1 Battle Speed Potion"] = "<:BattleSpeed:1344328870219743296>",
+    ["Common Treasure Chest"] = "<:CommonTreasureChest:1346932477511602217>",
+    ["Small Battle Speed Potion"] = "<:SmallBattleSpeedPotion:1346933281790230620>",
 }
 
 task.spawn(function()
