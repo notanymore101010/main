@@ -2358,6 +2358,11 @@ getgenv().itemthing = {
     ["1 Battle Speed Potion"] = "<:BattleSpeed:1344328870219743296>",
     ["Common Treasure Chest"] = "<:CommonTreasureChest:1346932477511602217>",
     ["Small Battle Speed Potion"] = "<:SmallBattleSpeedPotion:1346933281790230620>",
+    ["Evolved Mega Luck Potion"] = "<:EvolvedMegaLuckPotion:1346936376054251640>",
+    ["Evolved Luck Potion 2"] = "<:EvolvedLuckPotion2:1346934865186263164>",
+    ["Evolved Luck Potion 3"] = "<:EvolvedMegaLuckPotion:1346936376054251640>",
+    ["Evolved Luck Potion"] = "<:EvolvedLuckPotion:1346937174020591761>",
+    ["Rare Treasure Chest"] = "<:RareTreasureChest:1346937588849836083>",
 }
 
 task.spawn(function()
