@@ -154,7 +154,7 @@ getgenv().itemthing = {
     ["Rare Treasure Chest"] = "<:RareTreasureChest:1346937588849836083>",
     ["Poseidon Potion"] = "<:PoseidonPotion:1346938427685208158>",
 }
-
+getgenv().cancelgetexpeditiongui=true
 task.spawn(function()
     pcall(function()
         for _, boss in pairs(workspace.RepeatableBosses:GetChildren()) do
